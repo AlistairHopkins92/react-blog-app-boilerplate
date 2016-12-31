@@ -1,0 +1,33 @@
+.header {
+    height: 75px;
+
+    .header__logo {}
+
+    .header__burger {
+        display: none;
+
+        @media only screen and (max-width: 691px) {
+            display: inline-block;
+            float: right;
+        }
+    }
+
+    .header__links {
+        text-align: right;
+        list-style-type: none;
+        float: right;
+        margin: 0px;
+        
+        a { padding-right: 10px; }
+        li { float: left; }
+
+        @media only screen and (max-width: 691px) {
+            float: none;
+            padding: 0px;
+            background-color: #F5F5F5;
+
+            li { float: none }
+        }
+
+    }
+}
