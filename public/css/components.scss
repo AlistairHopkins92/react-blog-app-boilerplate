@@ -1,12 +1,14 @@
 .header {
-    height: 75px;
+    min-height: 75px;
 
-    .header__logo {}
+    .header__logo {
+        font-size: 30px;
+    }
 
     .header__burger {
         display: none;
 
-        @media only screen and (max-width: 691px) {
+        @media only screen and (max-width: 692px) {
             display: inline-block;
             float: right;
         }
@@ -17,17 +19,20 @@
         list-style-type: none;
         float: right;
         margin: 0px;
+        padding-bottom: 10px;
         
-        a { padding-right: 10px; }
+        a { padding-right: 20px; font-size: 18px; }
         li { float: left; }
 
-        @media only screen and (max-width: 691px) {
+        @media only screen and (max-width: 692px) {
             float: none;
             padding: 0px;
             background-color: #F5F5F5;
 
+            &.true { display: block }
+            &.false { display: none; }
+            a { padding: 0px; }
             li { float: none }
         }
-
     }
 }

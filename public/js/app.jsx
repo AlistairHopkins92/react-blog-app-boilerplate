@@ -10,4 +10,4 @@ import Projects from './views/projects.jsx';
 import Contact from './views/contact.jsx';
 
 ReactDOM.render(
-  <Home/>, document.getElementById('container'));
+  <Projects/>, document.getElementById('container'));

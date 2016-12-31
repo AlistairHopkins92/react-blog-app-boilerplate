@@ -10,7 +10,7 @@ import Contact from './views/contact.jsx';
 const Routes = () => {
     return (
         <Router history={browserHistory}>
-            <Route path="/" component={Home}/>
+            <Route path="/" component={Projects}/>
             <Route path="blog" component={Blog}/>
             <Route path="projects" component={Projects}/>
             <Route path="contact" component={Contact}/>

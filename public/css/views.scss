@@ -1,0 +1,20 @@
+.projects {
+    .projects__card {
+        height: 250px;
+        padding: 0px;
+        background-color: #F5F5F5;
+        border: 1px solid #BDBDBD;
+        border-radius: 2px;
+        margin-bottom: 20px;
+
+        .projects__image {
+            height: 50px;
+            width: 100%;
+            background-color: #E0E0E0;
+        }
+
+        .projects__content {
+            text-align: center;
+        }
+    }
+}
