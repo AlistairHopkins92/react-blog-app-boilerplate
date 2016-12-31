@@ -1,5 +1,9 @@
 .header {
     min-height: 75px;
+    background: #EC407A;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 20px;
 
     .header__logo {
         font-size: 30px;
@@ -11,6 +15,7 @@
         @media only screen and (max-width: 692px) {
             display: inline-block;
             float: right;
+            * { font-size: 21px; padding-top: 8px; }
         }
     }
 
@@ -18,21 +23,27 @@
         text-align: right;
         list-style-type: none;
         float: right;
-        margin: 0px;
-        padding-bottom: 10px;
         
-        a { padding-right: 20px; font-size: 18px; }
-        li { float: left; }
+        a { 
+            padding-right: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #FFF;
+            font-weight: bold;
+        }
+
+        li { float: left; padding-bottom: 0px; }
 
         @media only screen and (max-width: 692px) {
             float: none;
             padding: 0px;
-            background-color: #F5F5F5;
+            background-color: #EC407A;
 
             &.true { display: block }
             &.false { display: none; }
-            a { padding: 0px; }
-            li { float: none }
+            a { padding: 0 0 10px 0; }
+            
+            li { float: none; padding-bottom: 10px; }
         }
     }
 }

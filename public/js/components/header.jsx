@@ -30,10 +30,10 @@ class Header extends React.Component {
           <i className="fa fa-bars" aria-hidden="true"></i>
         </span>
         <ul className={toggle}>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/">home</a></li>
+          <li><a href="/blog">blog</a></li>
+          <li><a href="/projects">projects</a></li>
+          <li><a href="/contact">contact</a></li>
         </ul>
       </div>  
     );
