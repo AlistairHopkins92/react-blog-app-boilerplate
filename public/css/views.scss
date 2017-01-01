@@ -11,8 +11,32 @@
 
     .row { margin-bottom: 15px; }
 
-    .home__img { border: 1px solid white; height: 500px; }
-    .home__desc { border: 1px solid white; height: 500px;}
+    .home__img {
+        border: 1px solid white; height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .home__headshot {
+            width: 100%;
+            max-width: 270px;
+            height: auto;
+            border: 10px solid #FFF;
+        }
+
+        @media only screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .home__desc {
+        border: 1px solid white; height: 500px;
+        display: flex;
+        align-items: center;  
+        justify-content: center;
+        color: #FFF;  
+    }
+
     .home__icons { border: 1px solid white; height: 200px; }
 }
 

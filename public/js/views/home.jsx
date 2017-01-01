@@ -8,13 +8,13 @@ class Home extends React.Component {
         <div className="home">
             <Header/>
               <div className="container">
-                <div className="row">
-                  <div className="col-sm-4 home__img">Profile image here</div>
-                  <div className="col-sm-8 home__desc">Site intro here</div>
-                </div>
-                <div className="row">
+                  <div className="col-sm-4 home__img">
+                    <img src="./public/images/headshot.jpg" className="home__headshot"/>
+                  </div>
+                  <div className="col-sm-8 home__desc">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dignissimos eveniet fugit nemo optio quasi cum consectetur quas a eum! Ab aliquam, vel accusantium a repellendus? Magnam non illo quisquam.</h2>
+                  </div>
                   <div className="col-sm-12 home__icons">Social media icons here</div>
-                </div>
               </div>
         </div>
     )
