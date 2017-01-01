@@ -10,10 +10,10 @@ import Contact from './views/contact.jsx';
 const Routes = () => {
     return (
         <Router history={browserHistory}>
-            <Route path="/" component={Projects}/>
-            <Route path="blog" component={Blog}/>
-            <Route path="projects" component={Projects}/>
-            <Route path="contact" component={Contact}/>
+            <Route path="/" component={Home}/>
+            <Route path="/blog" component={Blog}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/contact" component={Contact}/>
         </Router>
     ); 
 }
@@ -21,3 +21,8 @@ const Routes = () => {
 export default Routes;
 
                 // <IndexRoute component={Home}/>
+//   <Router>
+//     <Route path="/" component={Home} />
+//     <Route path="/users" component={Users} />
+//     <Route path="/widgets" component={Widgets} />
+//   </Router>

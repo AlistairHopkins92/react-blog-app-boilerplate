@@ -1,5 +1,6 @@
 'use strict';
 import React from 'react';
+import { Link } from 'react-router';
  
 class Header extends React.Component {
   constructor(props){
@@ -30,10 +31,10 @@ class Header extends React.Component {
           <i className="fa fa-bars" aria-hidden="true"></i>
         </span>
         <ul className={toggle}>
-          <li><a href="/">home</a></li>
-          <li><a href="/blog">blog</a></li>
-          <li><a href="/projects">projects</a></li>
-          <li><a href="/contact">contact</a></li>
+          <li><Link to='/'>home</Link></li>
+          <li><Link to='/blog'>blog</Link></li>
+          <li><Link to='/projects'>projects</Link></li>
+          <li><Link to='/contact'>contact</Link></li>
         </ul>
       </div>  
     );
