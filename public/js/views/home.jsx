@@ -9,7 +9,7 @@ class Home extends React.Component {
             <Header/>
               <div className="container">
                   <div className="col-sm-4 home__img">
-                    <img src="./public/images/headshot.jpg" className="home__headshot"/>
+                    <span className="home__headshot card card-3"><img src="./public/images/headshot.jpg"/></span>
                   </div>
                   <div className="col-sm-8 home__desc">
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dignissimos eveniet fugit nemo optio quasi cum consectetur quas a eum! Ab aliquam, vel accusantium a repellendus? Magnam non illo quisquam.</h2>

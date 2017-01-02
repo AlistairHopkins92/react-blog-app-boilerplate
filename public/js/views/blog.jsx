@@ -14,12 +14,12 @@ class Blog extends React.Component {
         <Header/>
         <div className="container">
           <div className="col-sm-9">
-            <div className="blog__post">
+            <div className="blog__post card card-2">
                 <h3>Main Body</h3>
             </div>
           </div>
           <div className="col-sm-3">
-            <div className="blog__recent">
+            <div className="blog__recent card card-2">
                 <h3>Recent Posts</h3>
                 <ul>
                   <li>

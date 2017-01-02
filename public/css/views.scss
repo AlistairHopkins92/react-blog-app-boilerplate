@@ -18,10 +18,15 @@
         justify-content: center;
         
         .home__headshot {
-            width: 100%;
-            max-width: 270px;
-            height: auto;
-            border: 10px solid #FFF;
+            background-color: #FFF;
+            // border: 10px solid #FFF;
+
+            * {
+                width: 100%;
+                max-width: 240px;
+                height: auto;
+                padding: 10px;
+            }
         }
 
         @media only screen and (max-width: 767px) {
@@ -61,15 +66,12 @@
     .projects__card {
         height: 250px;
         padding: 0px;
-        background-color: #F5F5F5;
-        border: 1px solid #BDBDBD;
-        border-radius: 4px;
         margin-bottom: 20px;
 
         .projects__image {
             height: 50px;
             width: 100%;
-            background-color: #E0E0E0;
+            background-color: #EC407A;
         }
 
         .projects__content {
@@ -80,17 +82,11 @@
 
 .blog {
     .blog__post {
-        background-color: #F5F5F5;
-        border: 1px solid #BDBDBD;
-        border-radius: 4px;
         margin-bottom: 20px;
         padding: 15px;
     }
 
     .blog__recent {
-        background-color: #F5F5F5;
-        border: 1px solid #BDBDBD;
-        border-radius: 4px;
         margin-bottom: 20px;
         padding: 15px;
     }

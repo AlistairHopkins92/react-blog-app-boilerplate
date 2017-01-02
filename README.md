@@ -9,9 +9,9 @@ A basic React blog app setup with React Router, Sass, Webpack &amp; Babel
 - `python -m SimpleHTTPServer` to run the project
 
 ##To dos:
-- Add card styling to the blogs, projects and headshot
 - Build out the contact view with form
-- Setup blog post structure & render them on the blog page
 - Setup a json file for project data & render them on the blog page
+- Setup blog post structure & render them on the blog page
+- Fix body content positioning
 - Link webpack to run with gulp
 - Add minification for js and css to gulp

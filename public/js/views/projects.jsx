@@ -32,11 +32,12 @@ class Projects extends React.Component {
     let projects = [];
     for (let i=0; i<this.projects.length; i++) {
       projects.push(
-        <div className="col-sm-4 col-md-3 projects__card">
-          <div className="projects__image">
-          </div>
-          <div className="projects__content">
-            <h3>{ this.projects[i].name }</h3>
+        <div className="col-sm-6 col-md-4">
+          <div className="projects__card card card-1">
+            <div className="projects__image"></div>
+            <div className="projects__content">
+              <h3>{ this.projects[i].name }</h3>
+            </div>
           </div>
         </div>
       );
