@@ -26,7 +26,7 @@ class Header extends React.Component {
     const toggle = ['header__links', this.state.open].join(' ');
     return (
       <div className="header">
-        <span className="header__logo">Site Name</span>
+        <h3 className="header__logo">Chanse Campbell</h3>
         <span className="header__burger" onClick={this.toggleNav.bind(this)}>
           <i className="fa fa-bars" aria-hidden="true"></i>
         </span>

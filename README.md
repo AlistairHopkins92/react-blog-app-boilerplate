@@ -1,5 +1,5 @@
-# react-app-boilerplate
-A basic React app setup with Redux, Webpack &amp; Babel
+# React blog app boilerplate
+A basic React blog app setup with React Router, Sass, Webpack &amp; Babel
 
 ##Run the following commands to start the project:
 - `npm init`
@@ -9,9 +9,9 @@ A basic React app setup with Redux, Webpack &amp; Babel
 - `python -m SimpleHTTPServer` to run the project
 
 ##To dos:
-- Fix react router
+- Add card styling to the blogs, projects and headshot
+- Build out the contact view with form
+- Setup blog post structure & render them on the blog page
+- Setup a json file for project data & render them on the blog page
 - Link webpack to run with gulp
 - Add minification for js and css to gulp
-- Build out the views
-- Setup blog post structure
-- Setup a json file for project data
