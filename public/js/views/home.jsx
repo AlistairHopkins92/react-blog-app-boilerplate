@@ -19,6 +19,7 @@ class Home extends React.Component {
                       <a href="http://www.github.com/chansecampbell" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
                       <a href="http://www.linkedin.com/in/chansecampbell" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
                       <a href="http://www.twitter.com/chansecampbell" target="_blank"><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
+                      <a href="mailto:chansecampbell@gmail.com?subject=Enquiry" target="_blank"><i className="fa fa-envelope" aria-hidden="true"></i></a>
                     </span>
                   </div>
               </div>
