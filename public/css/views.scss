@@ -7,7 +7,14 @@
     left: 0px;
     z-index: -1;
 
-    .container { color: #FFF; margin-top: 120px; }
+    .container { 
+        color: #FFF; 
+        margin-top: 120px;
+    
+        @media only screen and (max-width: 767px) {
+            margin-top: 0;
+        }
+    }
 
     .row { margin-bottom: 15px; }
 
@@ -28,10 +35,6 @@
                 padding: 10px;
             }
         }
-
-        @media only screen and (max-width: 767px) {
-            display: none;
-        }
     }
 
     .home__desc {
@@ -40,6 +43,10 @@
         align-items: center;  
         justify-content: center;
         color: #FFF;  
+
+        @media only screen and (max-width: 767px) {
+            height: auto;
+        }
     }
 
     .home__icons {
@@ -57,7 +64,7 @@
         } 
 
         @media only screen and (max-width: 767px) {
-            * { padding: 8px; }
+            * { padding: 5px; }
         }
     }
 }
