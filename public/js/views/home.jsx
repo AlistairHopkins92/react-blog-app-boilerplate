@@ -12,7 +12,7 @@ class Home extends React.Component {
                     <span className="home__headshot card card-3"><img src="./public/images/headshot.jpg"/></span>
                   </div>
                   <div className="col-sm-8 home__desc">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dignissimos eveniet fugit nemo optio quasi cum consectetur quas a eum! Ab aliquam, vel accusantium a repellendus? Magnam non illo quisquam.</h2>
+                    <h2>Magnam non illo quisquam.</h2>
                   </div>
                   <div className="col-sm-12 home__icons">
                     <span>
